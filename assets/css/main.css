@@ -65,8 +65,9 @@ body {
 }
 
 ::selection {
-  background: #0080ff;
+  background: rgba(235, 100, 10, 0.5);
   text-shadow: none;
+  color: rgb(0, 0, 0, 1);
 }
 
 a {

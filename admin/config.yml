@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: zuedev/paradise
-media_folder: "assets"
+media_folder: "assets/media"
 publish_mode: editorial_workflow
 site_url: https://paradise.zue.dev
 display_url: https://paradise.zue.dev

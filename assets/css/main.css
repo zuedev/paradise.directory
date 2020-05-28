@@ -1,0 +1,75 @@
+:root {
+  --lighter: rgba(255, 255, 255, 0.5);
+  --darker: rgba(0, 0, 0, 0.5);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
+* {
+  font-family: "Inconsolata", monospace;
+}
+
+.capitalise {
+  text-transform: capitalize;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+html {
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 1);
+  background-image: radial-gradient(
+    rgba(245, 161, 38, 0.35),
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+html::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 4px,
+    transparent 4px,
+    transparent 6px
+  );
+  background-size: 56px 56px; /* This is unique for this background, need to find a pattern and develop a formula */
+  background-position-y: 0%;
+  -webkit-animation: "scanlines" 30s infinite linear forwards;
+  pointer-events: none;
+}
+
+@-webkit-keyframes 'scanlines' {
+  0% {
+    background-position-y: 0%;
+  }
+  100% {
+    background-position-y: 100%;
+  }
+}
+
+body {
+  width: 50vw;
+  margin: auto;
+  color: rgba(245, 161, 38, 1);
+  text-shadow: 0 0 5px var(--lighter);
+  text-align: justify;
+}
+
+::selection {
+  background: #0080ff;
+  text-shadow: none;
+}
+
+a {
+  color: rgba(235, 100, 10, 1);
+  text-decoration-style: dotted;
+}

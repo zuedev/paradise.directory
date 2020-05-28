@@ -24,6 +24,12 @@
     {% else %}
     <meta property="og:article:author" content="zuedev" />
     {% endif %}
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <script>
+      _state = {
+        page: {{ page |  jsonify }}
+      }
+    </script>
   </head>
   <body>
     <header>

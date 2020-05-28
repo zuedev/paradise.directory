@@ -43,15 +43,15 @@ html::after {
   );
   background-size: 56px 56px;
   background-position-y: 0%;
-  -webkit-animation: "scanlines" 30s infinite linear forwards;
+  animation: scanlines 30s infinite linear forwards;
   pointer-events: none;
 }
 
-@-webkit-keyframes 'scanlines' {
-  0% {
+@keyframes scanlines {
+  from {
     background-position-y: 0%;
   }
-  100% {
+  to {
     background-position-y: 100%;
   }
 }

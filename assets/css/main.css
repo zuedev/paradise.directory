@@ -37,9 +37,9 @@ html::after {
   background: repeating-linear-gradient(
     0deg,
     rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 4px,
-    transparent 4px,
-    transparent 6px
+    rgba(0, 0, 0, 0.2) 3px,
+    transparent 3px,
+    transparent 5px
   );
   background-size: 56px 56px;
   background-position-y: 0%;

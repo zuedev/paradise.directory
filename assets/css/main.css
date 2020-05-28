@@ -64,6 +64,24 @@ body {
   text-align: justify;
 }
 
+@media screen and (min-width: 400px) {
+  body {
+    width: 90vw;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    width: 70vw;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  body {
+    width: 50vw;
+  }
+}
+
 ::selection {
   background: rgba(235, 100, 10, 0.5);
   text-shadow: none;

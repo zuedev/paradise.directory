@@ -24,6 +24,7 @@ html {
     rgba(245, 161, 38, 0.35),
     rgba(0, 0, 0, 1) 100%
   );
+  background-attachment: fixed;
   -ms-overflow-style: none;
 }
 
@@ -96,6 +97,7 @@ html::-webkit-scrollbar {
     opacity: 0.24387;
   }
 }
+
 @keyframes textShadow {
   0% {
     text-shadow: 0.4389924193300864px 0 1px rgba(0, 30, 255, 0.5),
@@ -182,6 +184,7 @@ html::-webkit-scrollbar {
       -2.6208764473832513px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
   }
 }
+
 body::after {
   content: " ";
   display: block;
@@ -196,6 +199,7 @@ body::after {
   pointer-events: none;
   animation: flicker 0.15s infinite;
 }
+
 body::before {
   content: " ";
   display: block;
@@ -215,6 +219,7 @@ body::before {
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
 }
+
 body {
   animation: textShadow 1.6s infinite;
 }

@@ -41,7 +41,7 @@ html::after {
     transparent 4px,
     transparent 6px
   );
-  background-size: 56px 56px; /* This is unique for this background, need to find a pattern and develop a formula */
+  background-size: 56px 56px;
   background-position-y: 0%;
   -webkit-animation: "scanlines" 30s infinite linear forwards;
   pointer-events: none;

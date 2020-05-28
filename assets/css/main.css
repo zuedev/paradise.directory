@@ -25,6 +25,11 @@ html {
     rgba(245, 161, 38, 0.35),
     rgba(0, 0, 0, 1) 100%
   );
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
 }
 
 html::after {
@@ -91,4 +96,8 @@ body {
 a {
   color: rgba(235, 100, 10, 1);
   text-decoration-style: dotted;
+}
+
+.thumbnail {
+  width: 100%;
 }

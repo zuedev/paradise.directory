@@ -12,54 +12,98 @@ collections:
     folder: "_characters"
     create: true
     fields:
-      - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          widget: "image",
+          required: false,
+        }
       - {
           label: "Thumbnail Placeholder",
           name: "thumbnailPlaceholder",
           widget: "boolean",
+          required: false,
         }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "text",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
   - label: "Concepts"
     name: "concepts"
     folder: "_concepts"
     create: true
     fields:
-      - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          widget: "image",
+          required: false,
+        }
       - {
           label: "Thumbnail Placeholder",
           name: "thumbnailPlaceholder",
           widget: "boolean",
+          required: false,
         }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "text",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
   - label: "Organizations"
     name: "organizations"
     folder: "_organizations"
     create: true
     fields:
-      - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          widget: "image",
+          required: false,
+        }
       - {
           label: "Thumbnail Placeholder",
           name: "thumbnailPlaceholder",
           widget: "boolean",
+          required: false,
         }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "text",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown", required: false }
   - label: "Rulesets"
     name: "rulesets"
     folder: "_rulesets"
     create: true
     fields:
-      - { label: "Thumbnail", name: "thumbnail", widget: "image" }
+      - {
+          label: "Thumbnail",
+          name: "thumbnail",
+          widget: "image",
+          required: false,
+        }
       - {
           label: "Thumbnail Placeholder",
           name: "thumbnailPlaceholder",
           widget: "boolean",
+          required: false,
         }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "text",
+          required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown", required: false }

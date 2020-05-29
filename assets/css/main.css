@@ -19,17 +19,27 @@ body {
 }
 
 html {
-  background-color: rgba(0, 0, 0, 1);
-  background-image: radial-gradient(
-    rgba(245, 161, 38, 0.35),
-    rgba(0, 0, 0, 1) 100%
-  );
-  background-attachment: fixed;
   -ms-overflow-style: none;
 }
 
 html::-webkit-scrollbar {
   display: none;
+}
+
+body {
+  height: 100%;
+  width: 50vw;
+  margin: auto;
+  color: rgba(245, 161, 38, 1);
+  text-shadow: 0 0 5px var(--lighter);
+  text-align: justify;
+  animation: textShadow 1.6s infinite;
+  background-color: rgba(0, 0, 0, 1);
+  background-image: radial-gradient(
+    rgba(245, 161, 38, 0.35),
+    rgb(0, 0, 0, 1) 100%
+  );
+  background-attachment: fixed;
 }
 
 @keyframes flicker {
@@ -188,7 +198,7 @@ html::-webkit-scrollbar {
 body::after {
   content: " ";
   display: block;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
@@ -203,7 +213,7 @@ body::after {
 body::before {
   content: " ";
   display: block;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
@@ -218,19 +228,6 @@ body::before {
   z-index: 2;
   background-size: 100% 2px, 3px 100%;
   pointer-events: none;
-}
-
-body {
-  animation: textShadow 1.6s infinite;
-}
-
-body {
-  height: 100vh;
-  width: 50vw;
-  margin: auto;
-  color: rgba(245, 161, 38, 1);
-  text-shadow: 0 0 5px var(--lighter);
-  text-align: justify;
 }
 
 @media screen and (min-width: 400px) {

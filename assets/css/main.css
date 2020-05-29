@@ -270,3 +270,7 @@ a {
   background: rgba(0, 0, 0, 0.5);
   padding: 2rem;
 }
+
+h1:first-of-type {
+  margin-top: 0;
+}

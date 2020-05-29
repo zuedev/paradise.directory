@@ -19,7 +19,7 @@ collections:
           widget: "boolean",
         }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
   - label: "Concepts"
     name: "concepts"
@@ -33,7 +33,7 @@ collections:
           widget: "boolean",
         }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
   - label: "Organizations"
     name: "organizations"
@@ -47,7 +47,7 @@ collections:
           widget: "boolean",
         }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
   - label: "Rulesets"
     name: "rulesets"
@@ -61,5 +61,5 @@ collections:
           widget: "boolean",
         }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }

@@ -37,7 +37,7 @@ body {
   background-color: rgba(0, 0, 0, 1);
   background-image: radial-gradient(
     rgba(51, 255, 51, 0.3),
-    rgb(0, 0, 0, 1) 100%
+    rgba(0, 0, 0, 1) 100%
   );
   background-attachment: fixed;
   font-size: larger;
@@ -250,9 +250,9 @@ body::before {
 }
 
 ::selection {
-  background: rgba(235, 100, 10, 0.5);
+  background: rgba(0, 0, 0, 1);
   text-shadow: none;
-  color: rgb(0, 0, 0, 1);
+  color: rgba(51, 255, 51, 1);
 }
 
 a {

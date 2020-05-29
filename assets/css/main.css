@@ -41,6 +41,8 @@ body {
   );
   background-attachment: fixed;
   font-size: larger;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 @keyframes flicker {
@@ -262,4 +264,9 @@ a {
 
 .thumbnail {
   width: 100%;
+}
+
+.article {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
 }

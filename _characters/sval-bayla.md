@@ -1,6 +1,7 @@
 ---
 title: Sval Bayla
-thumbnail: https://i.imgur.com/RiW4poe.jpg
+thumbnail: /assets/img/sval-bayla.jpg
+thumbnailPlaceholder: true
 ---
 
 WIP

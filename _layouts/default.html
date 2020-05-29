@@ -25,6 +25,9 @@
     <meta property="og:article:author" content="zuedev" />
     {% endif %}
     <link rel="stylesheet" href="/assets/css/main.css" />
+    {% if page.customCss %}
+    <link rel="stylesheet" href="{{ page.customCss }}"></link>
+    {% endif %}
     <script>
       const _state = {
         page: {{ page |  jsonify }}

@@ -3,10 +3,10 @@
   --darker: rgba(0, 0, 0, 0.5);
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+@import url("https://use.typekit.net/fyy6yau.css");
 
 * {
-  font-family: "Inconsolata", monospace;
+  font-family: source-code-pro, monospace;
 }
 
 .capitalise {

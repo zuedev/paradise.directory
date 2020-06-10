@@ -3,10 +3,13 @@
   --darker: rgba(0, 0, 0, 0.5);
 }
 
-@import url("https://use.typekit.net/fyy6yau.css");
+@font-face {
+  font-family: "FSEX302";
+  src: url("../fonts/FSEX302.ttf");
+}
 
 * {
-  font-family: source-code-pro, monospace;
+  font-family: "FSEX302", monospace;
 }
 
 .capitalise {
